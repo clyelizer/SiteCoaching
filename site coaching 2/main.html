@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coaching Professionnel - Arfaa</title>
+  <meta name="description" content="Coaching informatique et digital : développement web, programmation, bureautique, réseaux, formations personnalisées. Progressez avec Arfaa Coaching !">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2721/2721269.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Arfaa Coaching</div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" aria-label="Changer de thème">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil" class="hero fade-in" style="background-image: linear-gradient(rgba(43,45,66,0.55), rgba(43,45,66,0.45)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center;">
+    <h1>Coaching informatique & digital sur-mesure</h1>
+    <p>Progressez rapidement en développement web, programmation, bureautique ou réseaux grâce à un accompagnement humain, moderne et orienté résultats. <br><strong>Débloquez votre potentiel numérique, que vous soyez étudiant, pro ou passionné !</strong></p>
+    <button onclick="scrollToSection('services')">Découvrir les formations</button>
+    <button onclick="scrollToSection('contact')" style="margin-left:1rem;">Prendre rendez-vous</button>
+  </section>
+
+  <section id="services" class="fade-in">
+    <h2>Mes Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img class="service-bg" loading="lazy" data-src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=facearea&w=400&q=80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="bg dev web" />
+        <i class="fas fa-laptop-code service-icon"></i>
+        <h3>Développement Web</h3>
+        <p>Création de sites web modernes, responsives et performants (vitrine, e-commerce, applications web).</p>
+      </div>
+      <div class="service-card">
+        <img class="service-bg" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=facearea&w=400&q=80" alt="bg programmation" />
+        <i class="fas fa-code service-icon"></i>
+        <h3>Programmation</h3>
+        <p>Coaching en algorithmique, Python, JavaScript, C, C++, Java, et accompagnement sur vos projets de code.</p>
+      </div>
+      <div class="service-card">
+        <img class="service-bg" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=facearea&w=400&q=80" alt="bg bureautique" />
+        <i class="fas fa-file-word service-icon"></i>
+        <h3>Bureautique</h3>
+        <p>Maîtrise de Word, Excel, PowerPoint, automatisation de tâches, gestion de documents et conseils pratiques.</p>
+      </div>
+      <div class="service-card">
+        <img class="service-bg" src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=facearea&w=400&q=80" alt="bg réseaux" />
+        <i class="fas fa-network-wired service-icon"></i>
+        <h3>Réseaux & Systèmes</h3>
+        <p>Initiation aux réseaux, sécurité informatique, installation et gestion de systèmes d’exploitation.</p>
+      </div>
+      <div class="service-card">
+        <img class="service-bg" src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=facearea&w=400&q=80" alt="bg formation" />
+        <i class="fas fa-chalkboard-teacher service-icon"></i>
+        <h3>Formations personnalisées</h3>
+        <p>Sessions sur-mesure pour étudiants, professionnels ou entreprises, en présentiel ou à distance.</p>
+      </div>
+    </div>
+  </section>
+  <div class="block-layout block-layout--layout"></div>
+
+  <section id="temoignages" class="testimonials fade-in">
+    <h2>Ils ont progressé avec Arfaa</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Témoignage 1" class="testimonial-img">
+        <p>"Grâce au coaching d'Arfaa, j'ai enfin décroché mon premier job de développeur web ! Les conseils sont concrets et adaptés à mon niveau."</p>
+        <span class="testimonial-name">Yassine, 23 ans</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Témoignage 2" class="testimonial-img">
+        <p>"J'ai gagné en confiance pour prendre la parole en réunion et automatiser mes tâches bureautiques. Merci pour la pédagogie et la patience !"</p>
+        <span class="testimonial-name">Sophie, 32 ans</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="Témoignage 3" class="testimonial-img">
+        <p>"L'accompagnement sur les réseaux et la cybersécurité m'a permis de sécuriser mon activité pro. Je recommande à 100%."</p>
+        <span class="testimonial-name">Karim, 41 ans</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos" class="fade-in">
+    <h2>À propos de moi</h2>
+    <div class="apropos-cards">
+      <div class="apropos-card">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Photo Coach" class="apropos-img">
+        <h3>Arfaa</h3>
+        <p>Coach certifié passionné par le développement personnel, j’accompagne depuis plus de 5 ans des personnes en quête de sens, de performance et d’épanouissement.</p>
+        <div class="apropos-social-links">
+          <a href="https://wa.me/" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://youtube.com/" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="apropos-card">
+        <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Photo Équipe" class="apropos-img">
+        <h3>Équipe</h3>
+        <p>Notre équipe de coachs expérimentés partage la même passion pour l’accompagnement humain et la réussite de chacun. Nous mettons nos compétences au service de votre évolution.</p>
+        <button class="btn-equipe">Voir équipe</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contactez-moi</h2>
+    <form id="formulaire-contact">
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre e-mail" required>
+      <input type="text" placeholder="Objet" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+     <div class="social-links" style="justify-content: center; width: 100%; margin-top: 1.5rem;">
+        <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://wa.me/" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <section id="rendez-vous" class="fade-in">
+    <h2>Prendre rendez-vous</h2>
+    <div class="calendar-container"></div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">Mentions légales</a> |
+      <a href="#">Politique de confidentialité</a> |
+      <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://wa.me/" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p>&copy; 2025 Arfaa Coaching. Tous droits réservés.</p>
+  </footer>
+
+  <script src="js/chat.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
