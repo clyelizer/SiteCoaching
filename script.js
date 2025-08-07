@@ -65,9 +65,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Init du thème
     initializeTheme();
     
-    // Init du chat
-    const chat = new Chat();
-
     // Init du calendrier
     const calendarContainer = document.querySelector('.calendar-container');
     if (calendarContainer) {
@@ -128,7 +125,7 @@ if (formContact) {
     this.reset();
     const msg = document.createElement('div');
     msg.textContent = 'Merci pour votre message ! Je vous répondrai rapidement.';
-    msg.style.background = '#2b2d42';
+    msg.style.background = 'var(--primary-color)';
     msg.style.color = '#fff';
     msg.style.padding = '1rem';
     msg.style.marginTop = '1rem';
